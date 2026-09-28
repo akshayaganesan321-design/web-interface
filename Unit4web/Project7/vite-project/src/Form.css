@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.phone {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}

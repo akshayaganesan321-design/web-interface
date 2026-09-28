@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00f7ff;
+}
+
+/* PAGE */
+.page {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.highlight {
+  color: #00f7ff;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00f7ff;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #ff00c8;
+  color: white;
+}
+
+/* INFO BOX */
+.info {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+/* CONTACT */
+.contact-box {
+  margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #00f7ff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ff00c8;
+  color: white;
+}

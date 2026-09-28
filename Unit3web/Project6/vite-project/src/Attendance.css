@@ -1,0 +1,22 @@
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+}
+
+.progress-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-card {
+  width: 900px;
+  background: white;
+  padding: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* College Header */
+
+.college-header {
+  text-align: center;
+  border-bottom: 2px solid #222;
+  padding-bottom: 15px;
+}
+
+.college-header h1 {
+  font-size: 22px;
+  margin: 5px 0;
+  color: #173b6c;
+}
+
+.college-header p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.college-header h2 {
+  margin: 12px 0 0;
+  font-size: 20px;
+}
+
+/* Student Details */
+
+.student-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  line-height: 1.5;
+}
+
+.student-details p {
+  margin: 6px 0;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #173b6c;
+  color: white;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+/* Summary */
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.summary div {
+  border: 1px solid #bbb;
+  padding: 15px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.summary span {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.summary b {
+  font-size: 18px;
+}
+
+/* Result */
+
+.overall-pass {
+  color: green;
+}
+
+/* Footer */
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding: 0 30px;
+}
+
+.card-footer p {
+  border-top: 1px solid #333;
+  padding-top: 8px;
+  min-width: 130px;
+  text-align: center;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .progress-page {
+    padding: 15px;
+  }
+
+  .progress-card {
+    width: 100%;
+    padding: 15px;
+    overflow-x: auto;
+  }
+
+  .college-header h1 {
+    font-size: 16px;
+  }
+
+  .student-details {
+    flex-direction: column;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  .summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-footer {
+    margin-top: 40px;
+  }
+}
